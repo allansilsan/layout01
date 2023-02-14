@@ -1,0 +1,47 @@
+html, body {
+    margin: 0; padding: 0;
+}
+h1 {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+p {
+    float: left;
+    box-sizing: border-box;
+    width: 30%;
+    margin-left: 2%;
+    padding: 2em;
+    background-image: linear-gradient(#fff, lightgrey
+    );
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.28));
+    border: 1px solid grey;
+}
+p#p1{
+    color: black;
+}
+p#p2{
+    color: black;
+}
+p#p3{
+    color: black ;
+}
+span {
+    display: block;
+    border: 1px solid grey;
+    background-image: linear-gradient(grey,lightgrey);
+    height: 200px;
+    margin-bottom: 1.5em;
+    
+}
+@media screen and (max-width: 700px){
+    p {
+        width: 95%;
+    }
+}
+footer {
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+}
